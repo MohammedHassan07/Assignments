@@ -1,0 +1,38 @@
+form {
+
+    width: 45vw;
+    padding: 10px;
+}
+
+form, input {
+
+    border-radius: 10px;
+    background: whitesmoke;
+    border: 2px solid rgb(227, 227, 227);
+    gap: 12px;
+}
+
+input {
+
+    width: 100%;
+    padding: 5px;
+    width: 75%;
+    height: 30px;
+}
+
+button {
+
+    cursor: pointer;
+    padding: 5px;
+    width: 20%;
+    height: 33px;
+    border-radius: 10px;
+    border: 2px solid rgb(227, 227, 227);
+    background: transparent;
+    color: black;
+}
+
+.message {
+
+    color: rgb(10, 177, 10);
+}

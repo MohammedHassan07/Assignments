@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <title>Assignment - Home</title>
+</head>
+
+<body>
+
+    ,<main class="container flex-col">
+
+        <h2>User Data</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>DOB</th>
+            </tr>
+            {{#each result}}
+
+            <tr>
+                <td>{{this.Name}}</td>
+                <td>{{this.Email}}</td>
+                <td>{{this.Age}}</td>
+                <td>{{this.DOB}}</td>
+            </tr>
+            {{/each}}
+
+        </table>
+
+    </main>
+
+
+</body>
+
+</html>
